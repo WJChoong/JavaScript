@@ -25,3 +25,12 @@ document.getElementById("number").innerHTML = num1;
 var num = 10;
 num += 10;
 console.log(num);
+
+//Data type
+let num = 18; //number
+let yourName = "Bob"; //string
+let name = { first: "Jason", second: "Jane" }; //object/dictionary
+let truth = false; //boollean
+let array = ["apple", "banana", "orange"]; //array
+let random; //undefined
+let nothing = null; //value null
