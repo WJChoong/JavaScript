@@ -34,3 +34,11 @@ let truth = false; //boollean
 let array = ["apple", "banana", "orange"]; //array
 let random; //undefined
 let nothing = null; //value null
+
+/*
+let - for those variables which make not much changes
+    - could not be redefine
+var - for those variables which coould always change
+    - could be redefine
+
+*/
