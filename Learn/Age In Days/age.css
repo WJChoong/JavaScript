@@ -1,0 +1,26 @@
+.main {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    /*wrap the contents when the desplay changes*/
+    flex-wrap: wrap;
+    /*choose how to adjust the elements*/
+    flex-direction: row;
+    /*let the two button seperate apart*/
+    justify-content: space-around;
+}
+
+.flex-box-container div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+    /*align the element center*/
+}
